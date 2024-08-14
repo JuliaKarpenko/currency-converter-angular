@@ -63,7 +63,7 @@ export class CurrencyConverterComponent implements OnInit {
       case 'EUR':
         return 'assets/icons/EUR.png';
       case 'USD':
-        return '/assets/icons/USD.png';
+        return 'assets/icons/USD.png';
       case 'UAH':
         return 'assets/icons/UAH.png';
       default:
