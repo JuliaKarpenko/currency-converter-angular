@@ -1,4 +1,30 @@
-# CurrencyConverter
+# Currency Converter
+
+Currency Converter is a web application built with Angular that allows users to convert amounts between different currencies. The project supports real-time conversion using up-to-date exchange rates.
+
+[![DEMO](https://img.shields.io/badge/live%20demo-0073cf?style=for-the-badge&logoColor=white)](https://juliakarpenko.github.io/currency-converter-angular/)
+
+![Demo](https://github.com/JuliaKarpenko/currency-converter-angular/blob/main/demo.gif)
+
+## Key Features
+
+- Currency Conversion: Users can select two different currencies and enter the amount they wish to convert.
+- Automatic Conversion: After entering the amount or changing the currency, the conversion result updates automatically.
+- Currency Swap: A "Swap" button allows users to quickly swap the selected currencies for both fields.
+- Icon Support in Dropdowns: Users can see the corresponding currency icons next to their codes in the dropdown menu.
+
+## Technologies Used
+
+- Angular: The main framework for developing the user interface.
+- TypeScript: Used for typed programming, providing greater reliability in the code.
+- HTML/CSS: Used to create the layout and style the UI components.
+- RxJS: Utilized for handling asynchronous data streams in Angular.
+
+## Project Structure
+
+- src/app/currency-converter: Contains the components and templates responsible for the currency converter functionality.
+- src/app/exchange-rate.service.ts: A service responsible for fetching exchange rates from an API.
+- src/assets/icons: Contains currency images displayed in the dropdown menus.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.4.
 
