@@ -4,7 +4,8 @@ Currency Converter is a web application built with Angular that allows users to 
 
 [![DEMO](https://img.shields.io/badge/live%20demo-0073cf?style=for-the-badge&logoColor=white)](https://juliakarpenko.github.io/currency-converter-angular/)
 
-![Demo](https://github.com/JuliaKarpenko/currency-converter-angular/blob/main/demo.gif)
+![Demo](https://github.com/JuliaKarpenko/currency-converter-angular/blob/master/demo.gif)
+
 
 ## Key Features
 
