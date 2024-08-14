@@ -60,10 +60,10 @@ export class CurrencyConverterComponent implements OnInit {
 
   getCurrencyImage(currency: string): string {
     switch (currency) {
-      case 'USD':
-        return '/assets/icons/USD.png';
       case 'EUR':
         return 'assets/icons/EUR.png';
+      case 'USD':
+        return '/assets/icons/USD.png';
       case 'UAH':
         return 'assets/icons/UAH.png';
       default:
