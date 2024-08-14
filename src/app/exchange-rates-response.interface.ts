@@ -1,5 +1,5 @@
 export interface ExchangeRatesResponse {
-  rates: { [currencyCode: string]: number };
-  base: string;
-  date: string;
+  result: string;
+  base_code: string;
+  rates: { [key: string]: number };
 }

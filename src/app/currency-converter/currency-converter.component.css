@@ -1,0 +1,85 @@
+.currency-converter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.currency-select {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.custom-select {
+  position: relative;
+  width: 100%;
+}
+
+.selected-option {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  background: white;
+}
+
+.selected-option img {
+  margin-right: 10px;
+  width: 28px;
+  height: 28px;
+}
+
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.option {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.option img {
+  margin-right: 10px;
+  width: 28px;
+  height: 28px;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+.currency-select input {
+  width: 100%;
+  padding: 15px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+.arrow {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.arrow img {
+  width: 24px;
+}
